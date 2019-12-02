@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <html lang="sv">
+  <style>
+    body {
+      overflow-x: hidden;
+    }
+    .absolute {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+    }
+  </style>
+  <script src="node_modules/html2canvas/dist/html2canvas.js"></script>
+  <script src="tween.js"></script>
+</head>
+<body onload="/*renderCross() /**/" onClick="renderCross()">
+  <div class="absolute">
+    <canvas id="mycanvas" width="1000" height="1000"></canvas>
+</div>
+<!--button onclick="renderCross()">Take screenshot</button-->
+<div id="text1" style="color: red;">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non turpis dictum urna sodales aliquam. Aenean eros dui, mattis quis facilisis malesuada, fermentum quis lacus. Integer porttitor nisi magna, a dignissim massa tristique in. Quisque consequat enim quam, sed sodales augue consequat id. Quisque fermentum leo id turpis elementum, vitae cursus nisi efficitur. Suspendisse arcu sem, vehicula sit amet magna eu, pretium rhoncus enim. Aenean tincidunt lacus sit amet venenatis venenatis.
+
+Fusce ac laoreet quam. Maecenas sit amet dui ante. Nullam egestas, purus egestas egestas tempus, nulla mauris scelerisque quam, vel luctus lectus velit nec nisi. In eget diam dui. Maecenas ultricies vehicula purus, quis mollis erat sodales id. Duis at turpis et nisl blandit rutrum id eget massa. Morbi congue eleifend orci, in commodo dui ultrices sed. Vestibulum quis neque leo. Sed sodales dui non gravida pharetra.
+
+Duis eleifend sed ex et feugiat. Duis tortor tortor, dictum sed purus varius, maximus ornare dui. Etiam semper nulla eu felis tincidunt, vel fermentum ante accumsan. Aenean hendrerit, orci sed cursus venenatis, orci purus semper est, ut condimentum sem sapien sit amet libero. Proin ac libero ornare odio dictum ultrices. Pellentesque ac arcu eros. Maecenas et neque quis diam ornare ullamcorper. Praesent consectetur arcu sit amet urna ornare, nec lobortis arcu scelerisque. Aenean fermentum felis eu purus pharetra dignissim. Sed aliquam volutpat purus, non mattis ante cursus sit amet. Integer a consectetur lacus. Ut nec dictum purus. Suspendisse tincidunt at augue et suscipit.
+</div>
+<div id="text2" style="background-color: pink; color: blue;">
+Fusce blandit eget purus in aliquet. Donec non lobortis purus, in fermentum velit. Aliquam egestas ex sed tellus euismod lobortis. Donec cursus ullamcorper blandit. Vivamus vel venenatis metus, vitae ultrices augue. Pellentesque in sapien id neque faucibus imperdiet. Integer quam ante, interdum aliquet porttitor eu, feugiat vitae arcu. Nulla vel cursus leo. Aliquam et nisl viverra, fermentum neque vitae, luctus felis. Nam sodales, quam nec malesuada aliquet, neque mi viverra augue, id fermentum justo ex et tellus. Praesent finibus rhoncus ullamcorper. Praesent venenatis urna urna, sed varius ante iaculis quis.
+
+Donec ac erat ut justo dapibus ornare quis vel urna. Nam tristique et ante at aliquet. Pellentesque diam sem, ultrices aliquet consectetur sed, faucibus vitae orci. Nullam vel sem non nisi feugiat gravida. Proin interdum maximus est, ut mollis odio mattis vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras posuere lorem eget velit semper sodales.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non turpis dictum urna sodales aliquam. Aenean eros dui, mattis quis facilisis malesuada, fermentum quis lacus. Integer porttitor nisi magna, a dignissim massa tristique in. Quisque consequat enim quam, sed sodales augue consequat id. Quisque fermentum leo id turpis elementum, vitae cursus nisi efficitur. Suspendisse arcu sem, vehicula sit amet magna eu, pretium rhoncus enim. Aenean tincidunt lacus sit amet venenatis venenatis.
+
+Fusce ac laoreet quam. Maecenas sit amet dui ante. Nullam egestas, purus egestas egestas tempus, nulla mauris scelerisque quam, vel luctus lectus velit nec nisi. In eget diam dui. Maecenas ultricies vehicula purus, quis mollis erat sodales id. Duis at turpis et nisl blandit rutrum id eget massa. Morbi congue eleifend orci, in commodo dui ultrices sed. Vestibulum quis neque leo. Sed sodales dui non gravida pharetra.
+</div>
+<div id="text3" style="color: green;">
+Duis eleifend sed ex et feugiat. Duis tortor tortor, dictum sed purus varius, maximus ornare dui. Etiam semper nulla eu felis tincidunt, vel fermentum ante accumsan. Aenean hendrerit, orci sed cursus venenatis, orci purus semper est, ut condimentum sem sapien sit amet libero. Proin ac libero ornare odio dictum ultrices. Pellentesque ac arcu eros. Maecenas et neque quis diam ornare ullamcorper. Praesent consectetur arcu sit amet urna ornare, nec lobortis arcu scelerisque. Aenean fermentum felis eu purus pharetra dignissim. Sed aliquam volutpat purus, non mattis ante cursus sit amet. Integer a consectetur lacus. Ut nec dictum purus. Suspendisse tincidunt at augue et suscipit.
+
+Fusce blandit eget purus in aliquet. Donec non lobortis purus, in fermentum velit. Aliquam egestas ex sed tellus euismod lobortis. Donec cursus ullamcorper blandit. Vivamus vel venenatis metus, vitae ultrices augue. Pellentesque in sapien id neque faucibus imperdiet. Integer quam ante, interdum aliquet porttitor eu, feugiat vitae arcu. Nulla vel cursus leo. Aliquam et nisl viverra, fermentum neque vitae, luctus felis. Nam sodales, quam nec malesuada aliquet, neque mi viverra augue, id fermentum justo ex et tellus. Praesent finibus rhoncus ullamcorper. Praesent venenatis urna urna, sed varius ante iaculis quis.
+
+Donec ac erat ut justo dapibus ornare quis vel urna. Nam tristique et ante at aliquet. Pellentesque diam sem, ultrices aliquet consectetur sed, faucibus vitae orci. Nullam vel sem non nisi feugiat gravida. Proin interdum maximus est, ut mollis odio mattis vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras posuere lorem eget velit semper sodales.
+</div>
+<div id="text4" style="color: green; height: 500px;">
+</div>
+<script src="main.js"></script>
+</body>
+</html>
