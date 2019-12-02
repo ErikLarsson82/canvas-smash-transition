@@ -6,7 +6,8 @@ let cord = { x: 0 }
 let snap = null
 
 function render() {
-  ctx.clearRect(0, 0, 1000, 1000)
+  ctx.fillStyle = '#fff'
+  ctx.fillRect(0, 0, 1000, 1000)
 
   const diff = Math.round(cord.x)
 
